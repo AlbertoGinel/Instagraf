@@ -3,12 +3,9 @@
 @tailwind utilities;
 
 
-/*  * {
+/* * {
   outline: 1px solid green !important;
-}  */
-
-/* https://youtu.be/a6Xs2Ir40OI?t=9599 */
-
+}   */
 
 @layer components{
   .navBtn{
