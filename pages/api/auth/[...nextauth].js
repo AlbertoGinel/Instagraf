@@ -12,7 +12,7 @@ export default NextAuth({
     // ...add more providers here  
   ],
 
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.SECRET,
 
   //our own login page, in our own created /auth/ /auth/signin
 
