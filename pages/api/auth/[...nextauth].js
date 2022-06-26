@@ -12,6 +12,8 @@ export default NextAuth({
     // ...add more providers here  
   ],
 
+  secret: process.env.NEXTAUTH_SECRET,
+
   //our own login page, in our own created /auth/ /auth/signin
 
   pages: {
